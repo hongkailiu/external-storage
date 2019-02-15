@@ -5,7 +5,7 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: cephfs-provisioner
-    namespace: cephfs
+    namespace: rook-ceph
 roleRef:
   kind: ClusterRole
   name: cephfs-provisioner
